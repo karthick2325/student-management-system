@@ -1,0 +1,100 @@
+/* Page Style */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Heading */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Add Button */
+a {
+    text-decoration: none;
+    background: #6f42c1;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+a:hover {
+    background: #4a2c91;
+}
+
+/* Table */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Table Header */
+th {
+    background: #6f42c1;
+    color: white;
+    padding: 12px;
+}
+
+/* Table Data */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate Rows */
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Hover Effect */
+tr:hover {
+    background: #ede7f6;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    a {
+        width: 90%;
+    }
+}
+
+/* Back button */
+.back-btn {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    padding: 8px 12px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background: black;
+}
+
+/* Add button */
+.add-btn {
+    text-decoration: none;
+    padding: 8px 12px;
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+}
+
+.add-btn:hover {
+    background: #1e7e34;
+}

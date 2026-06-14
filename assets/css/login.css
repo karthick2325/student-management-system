@@ -1,0 +1,83 @@
+/* ===== PAGE ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6f42c1, #007bff);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== CONTAINER ===== */
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* ===== CARD ===== */
+.login-card {
+    background: white;
+    padding: 30px;
+    width: 320px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* ===== HEADING ===== */
+.login-card h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ===== INPUT ===== */
+.login-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* FOCUS */
+.login-card input:focus {
+    border-color: #6f42c1;
+    outline: none;
+}
+
+/* ===== BUTTON ===== */
+.login-card button {
+    width: 100%;
+    padding: 12px;
+    background: #6f42c1;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-card button:hover {
+    background: #4a2c91;
+}
+
+/* ===== ERROR ===== */
+.error {
+    background: #ffe5e5;
+    color: red;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 500px) {
+    .login-card {
+        width: 90%;
+    }
+}

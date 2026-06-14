@@ -1,0 +1,142 @@
+/* ===== PAGE ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* ===== HEADING ===== */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* HEADER */
+th {
+    background: #dc3545;
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+}
+
+/* DATA */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* ROW STYLE */
+tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+tr:hover {
+    background: #ffe5e5;
+    transition: 0.3s;
+}
+
+/* ===== STATUS ===== */
+.paid {
+    color: green;
+    font-weight: bold;
+}
+
+.pending {
+    color: red;
+    font-weight: bold;
+}
+
+/* ===== BUTTON ===== */
+.pay-btn {
+    text-decoration: none;
+    padding: 6px 12px;
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.pay-btn:hover {
+    background: #1e7e34;
+}
+
+/* ===== COMPLETED TEXT ===== */
+.done {
+    color: gray;
+    font-weight: bold;
+}
+
+/* ===== EMPTY ===== */
+td[colspan] {
+    font-weight: bold;
+    color: #777;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+.back-btn {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    padding: 8px 12px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background: black;
+}
+
+.filter-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.filter-form select {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.filter-form button {
+    padding: 8px 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.reset-btn {
+    padding: 8px 12px;
+    background: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}

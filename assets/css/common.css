@@ -1,0 +1,129 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3 {
+    margin-bottom: 15px;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-blue {
+    background: #007bff;
+}
+.btn-blue:hover {
+    background: #0056b3;
+}
+
+.btn-green {
+    background: #28a745;
+}
+.btn-green:hover {
+    background: #1e7e34;
+}
+
+.btn-red {
+    background: #dc3545;
+}
+.btn-red:hover {
+    background: #a71d2a;
+}
+
+.btn-orange {
+    background: orange;
+}
+
+/* ===== FORM ===== */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+th {
+    padding: 12px;
+    color: white;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* ===== STATUS ===== */
+.present {
+    color: green;
+    font-weight: bold;
+}
+
+.absent {
+    color: red;
+    font-weight: bold;
+}
+
+/* ===== LINKS ===== */
+a {
+    text-decoration: none;
+}
+
+/* ===== CARD ===== */
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    table {
+        width: 100%;
+    }
+}

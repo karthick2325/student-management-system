@@ -1,0 +1,160 @@
+/* Page Style */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 20px;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Search Box */
+form {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    padding: 8px 15px;
+    background: #007bff;
+    color: white; /* ✅ FIX */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Add Button */
+a {
+    text-decoration: none;
+    padding: 8px 12px;
+    background: green;
+    color: white; /* ✅ FIX */
+    border-radius: 5px;
+}
+
+a:hover {
+    background: darkgreen;
+}
+
+/* Table Style */
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Row Styles */
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+tr:hover {
+    background: #ddd;
+}
+
+/* ===== ACTION BUTTONS FIX ===== */
+
+/* Common action style */
+.action-btn {
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: white !important; /* 🔥 VERY IMPORTANT */
+    display: inline-block;
+    font-size: 13px;
+}
+
+/* Edit button */
+.edit-btn {
+    background: #ffc107;
+    color: black !important;
+}
+
+.edit-btn:hover {
+    background: #e0a800;
+}
+
+/* Delete button */
+.delete-btn {
+    background: #dc3545;
+    color: white !important; /* 🔥 FIX TEXT VISIBILITY */
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}
+
+/* Back button */
+.back-btn {
+    display: inline-block;
+    margin-bottom: 15px;
+    padding: 8px 12px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background: black;
+}
+
+/* Add button */
+.add-btn {
+    padding: 8px 12px;
+    background: #28a745;
+    color: white;
+    border-radius: 5px;
+}
+
+.add-btn:hover {
+    background: #1e7e34;
+}
+
+/* Search */
+.search-box input {
+    padding: 8px;
+}
+
+.search-box button {
+    padding: 8px;
+}
+
+/* Reset */
+.reset-btn {
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 8px 12px;
+    background: #6c757d;
+    color: white;
+    border-radius: 5px;
+}
+
+.reset-btn:hover {
+    background: #5a6268;
+}

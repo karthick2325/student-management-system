@@ -1,0 +1,148 @@
+/* ===== PAGE ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ===== TOP BAR (FIX BACK BUTTON) ===== */
+.top-bar {
+    width: 520px;
+    margin-bottom: 10px;
+}
+
+/* ===== BACK BUTTON ===== */
+.back-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 12px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.back-btn:hover {
+    background: black;
+}
+
+/* ===== MAIN CARD ===== */
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 520px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.1);
+}
+
+/* ===== HEADING ===== */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* ===== DATE INPUT ===== */
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+/* ===== TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* HEADER */
+th {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* DATA */
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+/* FIX TEXT WRAP */
+td:first-child {
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+td:nth-child(2) {
+    color: #555;
+    white-space: nowrap;
+}
+
+/* ROW HOVER */
+tr:hover {
+    background: #f1f7ff;
+    transition: 0.3s;
+}
+
+/* ===== DROPDOWN ===== */
+select {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ===== BUTTON ===== */
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1e7e34;
+}
+
+/* ===== EXTRA BUTTON ===== */
+.btn-present {
+    background: #007bff;
+    margin-bottom: 10px;
+}
+
+.btn-present:hover {
+    background: #0056b3;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+    .top-bar,
+    form {
+        width: 95%;
+    }
+
+    td, th {
+        font-size: 12px;
+    }
+}
